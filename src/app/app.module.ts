@@ -9,6 +9,7 @@ import { MainContentComponent } from './pages/main-content/main-content.componen
 import { SucursalesComponent } from './pages/sucursales/sucursales.component';
 import { CardComponent } from './components/card/card.component';
 import { MapComponent } from './components/map/map.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MapComponent } from './components/map/map.component';
     MainContentComponent,
     SucursalesComponent,
     CardComponent,
-    MapComponent
+    MapComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

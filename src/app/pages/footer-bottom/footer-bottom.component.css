@@ -2,3 +2,8 @@
     background-color: rgb(2, 61, 255);
     align-items: center;
 }
+
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; 
+    font-size: 1.2rem
+}
