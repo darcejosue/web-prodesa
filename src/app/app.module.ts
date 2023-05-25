@@ -7,6 +7,8 @@ import { HeaderTopComponent } from './pages/header-top/header-top.component';
 import { FooterBottomComponent } from './pages/footer-bottom/footer-bottom.component';
 import { MainContentComponent } from './pages/main-content/main-content.component';
 import { SucursalesComponent } from './pages/sucursales/sucursales.component';
+import { CardComponent } from './components/card/card.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SucursalesComponent } from './pages/sucursales/sucursales.component';
     HeaderTopComponent,
     FooterBottomComponent,
     MainContentComponent,
-    SucursalesComponent
+    SucursalesComponent,
+    CardComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
