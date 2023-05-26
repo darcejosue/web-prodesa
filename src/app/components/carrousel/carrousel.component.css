@@ -1,0 +1,25 @@
+.img-carusel {
+    width: 1000px;
+    height: 600px;
+}
+
+div {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+
+    padding-bottom: 15px;
+    margin-left: 0%;
+
+}
+
+h3,
+p {
+    background-color: rgba(100, 105, 101, 0.432);
+    text-shadow: 10px 10px 20px rgb(25, 25, 25),
+        -10px -10px 20px rgb(60, 60, 60);
+    box-shadow: 10px 10px 20px rgba(255, 163, 163, 0.384),
+        -10px -10px 20px rgba(230, 213, 213, 0.363);
+
+    border-radius: 15px;
+}
