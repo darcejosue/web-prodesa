@@ -10,6 +10,8 @@ import { SucursalesComponent } from './pages/sucursales/sucursales.component';
 import { CardComponent } from './components/card/card.component';
 import { MapComponent } from './components/map/map.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarrouselComponent } from './components/carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     SucursalesComponent,
     CardComponent,
     MapComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    CarrouselComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
