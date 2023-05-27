@@ -1,5 +1,10 @@
+.all{
+    padding-top: 0px; 
+    margin-top: 0px;
+}
+
 .img-carusel {
-    width: 1000px;
+    width: 940px;
     height: 600px;
 }
 
@@ -23,3 +28,43 @@ p {
 
     border-radius: 15px;
 }
+
+
+
+.menu-bar-desktop {
+    text-decoration: none;
+    font: 100% Roboto, sans-serif;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 0 20px;
+    color: inherit;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: justify;
+}
+
+
+
+a{
+    color: rgb(24, 23, 23);
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+}
+
+a:hover {
+    background: #ffe082;
+}
+
+a:active {
+    background: #ffca28;
+}
+
+

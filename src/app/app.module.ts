@@ -12,6 +12,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { HeaderOptionComponent } from './pages/header-option/header-option.component';
 import { InformationComponent } from './components/information/information.component';
+import { RecordsComponent } from './components/records/records.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { InformationComponent } from './components/information/information.compo
     CarrouselComponent,
     HeaderOptionComponent,
     InformationComponent,
+    RecordsComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
