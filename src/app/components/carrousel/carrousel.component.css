@@ -3,6 +3,11 @@
     margin-top: 0px;
 }
 
+.all a{
+    color: rgb(255, 255, 255);
+
+}
+
 .img-carusel {
     width: 940px;
     height: 600px;

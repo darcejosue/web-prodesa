@@ -1,0 +1,30 @@
+p{
+    width: auto;
+}
+
+a{
+    justify-items: right;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: static;
+}
+
+
+figcaption{
+    width: 300px;
+    height: auto;
+}
+
+.contenedor_tarjeta{
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.titulo{
+    font-size: 1.5em;
+    text-align: center;
+}
+

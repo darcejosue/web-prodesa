@@ -14,6 +14,10 @@ import { HeaderOptionComponent } from './pages/header-option/header-option.compo
 import { InformationComponent } from './components/information/information.component';
 import { RecordsComponent } from './components/records/records.component';
 import { ProductsComponent } from './components/products/products.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { VacantComponent } from './components/vacant/vacant.component';
+import { QuestionComponent } from './components/question/question.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { ProductsComponent } from './components/products/products.component';
     InformationComponent,
     RecordsComponent,
     ProductsComponent,
+    ContactComponent,
+    VacantComponent,
+    QuestionComponent,
+    SocialComponent,
   ],
   imports: [
     BrowserModule,

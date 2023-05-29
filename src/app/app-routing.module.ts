@@ -5,6 +5,10 @@ import { CardComponent } from './components/card/card.component';
 import { MapComponent } from './components/map/map.component';
 import { InformationComponent } from './components/information/information.component';
 import { ProductsComponent } from './components/products/products.component';
+import { QuestionComponent } from './components/question/question.component';
+import { VacantComponent } from './components/vacant/vacant.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SocialComponent } from './components/social/social.component';
 
 
 const routes: Routes = [
@@ -28,6 +32,22 @@ const routes: Routes = [
   {
     path: 'productos',
     component: ProductsComponent
+  },
+  {
+    path: 'social',
+    component: SocialComponent
+  }
+  ,{
+    path:'preguntas',
+    component: QuestionComponent
+  },
+  {
+    path:'trabajos',
+    component: VacantComponent
+  },
+  {
+    path: 'contacto',
+    component: ContactComponent
   }
 ];
 
