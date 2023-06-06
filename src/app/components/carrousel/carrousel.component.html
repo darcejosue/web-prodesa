@@ -1,49 +1,89 @@
-<div class="container all">
-  <ul class="menu-bar-desktop col-md-12 ">
-    <a href="/">Inicio</a>
-    <span style="color: rgb(248, 246, 246);">||</span>
-    <a href="/cobertura">Cobertura</a>
-    <span style="color: rgb(255, 255, 255);">||</span>
-    <a href="/productos">Productos Financieros</a>
-    <span style="color: rgb(255, 255, 255);">||</span>
-    <a href="/info">Sobre Nosotros</a>
-    <span style="color: rgb(255, 255, 255);">||</span>
-    <a href="/social">Desempeño social</a>
-    <span style="color: rgb(255, 255, 255);"></span>
-    <img src="../../../assets/images/Logo.jpg" style="z-index: 2; ;" width="10%">
+<div class="all ">
+  <ul class="menu-bar-desktop row">
+    <div class="col-md-10 col-sm-5">
+      <span style="color: rgb(255, 255, 255)"></span>
+      <img
+        src="../../../assets/images/Logo.jpg"
+        style="z-index: 2"
+        width="10%"
+        class="float-left"
+      />
+      <span style="color: rgb(255, 255, 255)"></span>
+
+      <a href="/">Inicio</a>
+
+      <span style="color: rgb(248, 246, 246)">||</span>
+      <a href="/cobertura">Cobertura</a>
+      <span style="color: rgb(255, 255, 255)">||</span>
+      <a href="/productos">Productos Financieros</a>
+      <span style="color: rgb(255, 255, 255)">||</span>
+      <a href="/info">Sobre Nosotros</a>
+      <span style="color: rgb(255, 255, 255)">||</span>
+      <a href="/social">Desempeño social</a>
+      <span style="color: rgb(255, 255, 255)">||</span>
+      <a href="/social">Calificacion Institucional</a>
+
+      <span style="color: rgb(248, 246, 246)">||</span>
+    </div>
+    <div class="col-md-2 col-sm-5 text-left">
+      <details >
+        <summary>Aspectos Legales</summary>
+        <br />
+        <ul>
+          <li><a href="/info" class="nav-submenu-link">Ley 769</a></li>
+          <li><a href="/info" class="nav-submenu-link">TCEA</a></li>
+          <li>
+            <a href="#" class="nav-submenu-link">Ejemp Calculo de Int.</a>
+          </li>
+          <li>
+            <a href="#" class="nav-submenu-link"> Procedimiento de Reclamo</a>
+          </li>
+          <li><a href="#" class="nav-submenu-link">Modelo de Contratos</a></li>
+          <li><a href="#" class="nav-submenu-link">Estados Financieros</a></li>
+        </ul>
+      </details>
+    </div>
   </ul>
-
-  
-    
-  
-  <ngb-carousel>
-
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img src="../../../assets/images/capacitacion.jpg" class="img-carusel" alt="Angular Carousel 1">
-      </div>
-      <div class="carousel-caption">
-        <h3>Titulo 1</h3>
-        <p>Descripcion de lo que hay en la imagen</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img src="../../../assets/images/galeria/ft001.JPG" class="img-carusel" alt="Angular Carousel 2">
-      </div>
-      <div class="carousel-caption">
-        <h3>Titulo 2</h3>
-        <p>Descripcion de lo que hay en la imagen</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img src="../../../assets/images/tejidos.jpg" class="img-carusel" alt="Angular Carousel 2">
-      </div>
-      <div class="carousel-caption">
-        <h3>Titulo 3</h3>
-        <p>Descripcion de lo que hay en la imagen</p>
-      </div>
-    </ng-template>
-  </ngb-carousel>
 </div>
+
+<ngb-carousel class="justify-end">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        src="../../../assets/images/capacitacion.jpg"
+        class="img-carusel"
+        alt="Angular Carousel 1"
+      />
+    </div>
+    <div class="carousel-caption">
+      <h3>Titulo 1</h3>
+      <p>Descripcion de lo que hay en la imagen</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        src="../../../assets/images/galeria/ft001.JPG"
+        class="img-carusel"
+        alt="Angular Carousel 2"
+      />
+    </div>
+    <div class="carousel-caption">
+      <h3>Titulo 2</h3>
+      <p>Descripcion de lo que hay en la imagen</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        src="../../../assets/images/tejidos.jpg"
+        class="img-carusel"
+        alt="Angular Carousel 2"
+      />
+    </div>
+    <div class="carousel-caption">
+      <h3>Titulo 3</h3>
+      <p>Descripcion de lo que hay en la imagen</p>
+    </div>
+  </ng-template>
+</ngb-carousel>

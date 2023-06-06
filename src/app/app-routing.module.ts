@@ -12,6 +12,7 @@ import { SocialComponent } from './components/social/social.component';
 
 
 const routes: Routes = [
+  
   {
     path:'',
     component: MainContentComponent 
@@ -48,7 +49,10 @@ const routes: Routes = [
   {
     path: 'contacto',
     component: ContactComponent
-  }
+  },
+  {
+    path: '**', redirectTo: '', pathMatch: 'full'
+  },
 ];
 
 @NgModule({
