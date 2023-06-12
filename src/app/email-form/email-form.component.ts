@@ -11,7 +11,7 @@ import emailjs, {EmailJSResponseStatus} from '@emailjs/browser';
 export class EmailFormComponent {
  public sendEmail(e:Event){
   e.preventDefault();
-  emailjs.sendForm('service_t6g5h4v', 'template_fw0w5ci', e.target as HTMLFormElement, '-YFTp1Qf7F0yGEQXd')
+  emailjs.sendForm('service_o4bkga6', 'template_fw0w5ci', e.target as HTMLFormElement, '-YFTp1Qf7F0yGEQXd')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
       }, (error) => {
