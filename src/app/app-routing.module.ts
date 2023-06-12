@@ -12,6 +12,7 @@ import { SocialComponent } from './components/social/social.component';
 import { LeyComponent } from './components/legal/ley/ley.component';
 import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
 import { ContratosComponent } from './components/legal/contratos/contratos.component';
+import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
 
 
 const routes: Routes = [
@@ -64,6 +65,10 @@ const routes: Routes = [
   {
     path:'contratos',
     component: ContratosComponent
+  },
+  {
+    path: 'estados financieros',
+    component: FinanzasComponent
   },
   {
     path: '**', redirectTo: '', pathMatch: 'full'

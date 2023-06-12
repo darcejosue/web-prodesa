@@ -20,12 +20,13 @@ import { QuestionComponent } from './components/question/question.component';
 import { SocialComponent } from './components/social/social.component';
 import { LeyComponent } from './components/legal/ley/ley.component';
 import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
-import {  MessageService  } from './services/message.service';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReclamosComponent } from './components/reclamos/reclamos.component';
 import { ContratosComponent } from './components/legal/contratos/contratos.component';
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
+import { EmailFormComponent } from './email-form/email-form.component';
+import { EmailService } from './email.service';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { FinanzasComponent } from './components/legal/finanzas/finanzas.componen
     ReclamosComponent,
     ContratosComponent,
     FinanzasComponent,
+    EmailFormComponent,
     
   ],
   imports: [
@@ -56,9 +58,11 @@ import { FinanzasComponent } from './components/legal/finanzas/finanzas.componen
     AppRoutingModule, 
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    
   ],
-  providers: [MessageService],
+  providers: [EmailService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
