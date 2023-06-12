@@ -9,6 +9,9 @@ import { QuestionComponent } from './components/question/question.component';
 import { VacantComponent } from './components/vacant/vacant.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SocialComponent } from './components/social/social.component';
+import { LeyComponent } from './components/legal/ley/ley.component';
+import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
+import { ContratosComponent } from './components/legal/contratos/contratos.component';
 
 
 const routes: Routes = [
@@ -49,6 +52,18 @@ const routes: Routes = [
   {
     path: 'contacto',
     component: ContactComponent
+  },
+  {
+    path: 'ley 769',
+    component: LeyComponent
+  },
+  {
+    path: 'reclamos',
+    component: FormatosReportesComponent
+  },
+  {
+    path:'contratos',
+    component: ContratosComponent
   },
   {
     path: '**', redirectTo: '', pathMatch: 'full'

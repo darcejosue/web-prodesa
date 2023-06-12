@@ -43,6 +43,7 @@ Thumbs.db
 
 *.png
 *.jpg
+*.pdf
 .assets/images
 src/assets/images/favicon.ico
 src/assets/images/Flechas.gif
@@ -1639,3 +1640,5 @@ src/assets/images/open-iconic-master/webp/zoom-out-4x.webp
 src/assets/images/open-iconic-master/webp/zoom-out-6x.webp
 src/assets/images/open-iconic-master/webp/zoom-out-8x.webp
 src/assets/images/open-iconic-master/webp/zoom-out.webp
+
+

@@ -1,0 +1,25 @@
+summary{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+iframe{
+    width: 65%;
+    height: 900px;
+}
+
+li{
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: double;
+    font-weight: inherit;
+    font-size: 20px;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(79, 180, 121, 0.61);
+}

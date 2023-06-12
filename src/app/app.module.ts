@@ -18,6 +18,14 @@ import { ContactComponent } from './components/contact/contact.component';
 import { VacantComponent } from './components/vacant/vacant.component';
 import { QuestionComponent } from './components/question/question.component';
 import { SocialComponent } from './components/social/social.component';
+import { LeyComponent } from './components/legal/ley/ley.component';
+import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
+import {  MessageService  } from './services/message.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ReclamosComponent } from './components/reclamos/reclamos.component';
+import { ContratosComponent } from './components/legal/contratos/contratos.component';
+import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
 
 @NgModule({
   declarations: [
@@ -36,9 +44,21 @@ import { SocialComponent } from './components/social/social.component';
     VacantComponent,
     QuestionComponent,
     SocialComponent,
+    LeyComponent,
+    FormatosReportesComponent,
+    ReclamosComponent,
+    ContratosComponent,
+    FinanzasComponent,
+    
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
-  providers: [],
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    NgbModule,
+    HttpClientModule,
+    FormsModule
+  ],
+  providers: [MessageService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
