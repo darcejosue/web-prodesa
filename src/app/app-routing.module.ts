@@ -13,6 +13,7 @@ import { LeyComponent } from './components/legal/ley/ley.component';
 import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
 import { ContratosComponent } from './components/legal/contratos/contratos.component';
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
+import { TCEAComponent } from './components/legal/tcea/tcea.component';
 
 
 const routes: Routes = [
@@ -69,6 +70,10 @@ const routes: Routes = [
   {
     path: 'estados financieros',
     component: FinanzasComponent
+  },
+  {
+    path: 'tcea',
+    component: TCEAComponent
   },
   {
     path: '**', redirectTo: '', pathMatch: 'full'

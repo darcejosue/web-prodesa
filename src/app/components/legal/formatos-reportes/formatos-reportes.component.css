@@ -1,3 +1,25 @@
 img{
     width: 100%;
 }
+
+details{
+    padding-bottom: 20px;
+}
+
+table{
+    margin-top: 20px;
+}
+
+
+.tarjeta{
+ text-align: center;
+ padding: 20px 20px 20px 20px;
+ border-radius: 15px;
+}
+
+
+.bg-primary{
+    padding: 30px;
+    border-radius: 5px;
+}
+

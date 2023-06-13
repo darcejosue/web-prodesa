@@ -20,13 +20,11 @@ import { QuestionComponent } from './components/question/question.component';
 import { SocialComponent } from './components/social/social.component';
 import { LeyComponent } from './components/legal/ley/ley.component';
 import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReclamosComponent } from './components/reclamos/reclamos.component';
 import { ContratosComponent } from './components/legal/contratos/contratos.component';
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
-import { EmailFormComponent } from './email-form/email-form.component';
-import { EmailService } from './email.service';
+import { EmailFormComponent } from './email/email-form.component';
+import { TCEAComponent } from './components/legal/tcea/tcea.component';
 
 @NgModule({
   declarations: [
@@ -51,18 +49,16 @@ import { EmailService } from './email.service';
     ContratosComponent,
     FinanzasComponent,
     EmailFormComponent,
+    TCEAComponent,
     
   ],
   imports: [
     BrowserModule, 
     AppRoutingModule, 
     NgbModule,
-    HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule,
     
   ],
-  providers: [EmailService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
