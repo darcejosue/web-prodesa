@@ -25,6 +25,7 @@ import { ContratosComponent } from './components/legal/contratos/contratos.compo
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
 import { EmailFormComponent } from './email/email-form.component';
 import { TCEAComponent } from './components/legal/tcea/tcea.component';
+import { CalculosComponent } from './components/legal/calculos/calculos.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { TCEAComponent } from './components/legal/tcea/tcea.component';
     FinanzasComponent,
     EmailFormComponent,
     TCEAComponent,
+    CalculosComponent,
     
   ],
   imports: [

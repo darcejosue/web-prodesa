@@ -14,6 +14,7 @@ import { FormatosReportesComponent } from './components/legal/formatos-reportes/
 import { ContratosComponent } from './components/legal/contratos/contratos.component';
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
 import { TCEAComponent } from './components/legal/tcea/tcea.component';
+import { CalculosComponent } from './components/legal/calculos/calculos.component';
 
 
 const routes: Routes = [
@@ -74,6 +75,10 @@ const routes: Routes = [
   {
     path: 'tcea',
     component: TCEAComponent
+  },
+  {
+    path: 'ejemplo calculos',
+    component: CalculosComponent
   },
   {
     path: '**', redirectTo: '', pathMatch: 'full'
