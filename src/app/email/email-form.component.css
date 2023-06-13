@@ -2,3 +2,8 @@ label{
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.btn{
+    width: 100%;
+    height: 70px;
+}

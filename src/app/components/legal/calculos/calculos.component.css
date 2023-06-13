@@ -1,0 +1,22 @@
+label{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header-card{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 40px;
+    text-decoration: underline;
+}
+.header-card p{
+    
+    font-size: 23px !important;
+}
+
+h5{
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.header-card{
+    padding: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+summary{
+    text-align: end;
+}
+
+.header-prestamo summary{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    padding: 45px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.header-prestamo{
+    color: aliceblue;
+    border-radius: 5px;
+}
+
