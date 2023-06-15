@@ -15,6 +15,7 @@ import { ContratosComponent } from './components/legal/contratos/contratos.compo
 import { FinanzasComponent } from './components/legal/finanzas/finanzas.component';
 import { TCEAComponent } from './components/legal/tcea/tcea.component';
 import { CalculosComponent } from './components/legal/calculos/calculos.component';
+import { CalificacionComponent } from './components/calificacion/calificacion.component';
 
 
 const routes: Routes = [
@@ -24,8 +25,8 @@ const routes: Routes = [
     component: MainContentComponent 
   },
   {
-    path:'card',
-    component: CardComponent
+    path:'calificacion',
+    component: CalificacionComponent
     
   },
   {
