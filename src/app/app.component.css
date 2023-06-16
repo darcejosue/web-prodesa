@@ -1,9 +1,17 @@
 *{
   color: aliceblue;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
 }
 
 div{
     margin-top: 0px;
     padding-top: 0px;
     background-color: rgb(54, 54, 54);
+    
   }
