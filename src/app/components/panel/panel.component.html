@@ -1,0 +1,98 @@
+<div class="container">
+    <label class="bg-success"
+      >En este panel puede agregar propiedades en venta a la pagina.
+      <br>
+      A la vez que puede eliminar las propiedades no disponibles.</label
+    >
+  
+    <hr>
+    <!--Propiedades en venta-->
+    <div class="row justify-content-center align-items-center g-2">
+      <div class="col-1"></div>
+      <div class="col-md-10 col-sm-12 bg-success">
+  
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <!--Fin Propiedades en venta-->
+  
+    <!--Vacantes laborales-->
+    <div class="row justify-content-center align-items-center g-2">
+      <div class="col-1"></div>
+      <div class="col-md-10 col-sm-12 ">
+  
+  
+       <details>
+        <summary>Añadir Propiedades</summary>
+        <div class="mb-3">
+        <form [formGroup]="propiedadForm" (ngSubmit)="agregarPropiedad(); sendNotify()">
+          <label for="" class="form-label">Ubicacion:</label>
+          <input type="text" formControlName="ubicacion" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <label for="" class="form-label">Direccion:</label>
+          <input type="text" formControlName="direccion" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <label for="" class="form-label">Precio:</label>
+          <input type="number" formControlName="precio" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <label for="" class="form-label">Descripción:</label>
+          <input type="text" formControlName="descripcion" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <div class="mb-3">
+            <label for="" class="form-label">Escoja una imagen</label>
+            <input type="file" class="form-control" formControlName="img" id="" placeholder="" aria-describedby="fileHelpId">
+           
+          </div>
+        <button type="submit" class="btn btn-primary" ><strong>Publicar</strong></button>        
+     
+        </form>   
+        </div>
+       </details>
+
+       <details>
+        <summary>Lista de propiedades</summary>
+
+        <br><br><br>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <span class="titulo">LISTADO DE PRODUCTOS</span>
+                            <table *ngIf="listPropiedades.length > 0" class="table table-striped mt-3">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Producto</th>
+                                    <th scope="col">Categoria</th>
+                                    <th scope="col">Ubicacion</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr *ngFor="let propiedad of listPropiedades">
+                                    <td>{{ propiedad.ubicacion }}</td>
+                                    <td>{{ propiedad.direccion }}</td>
+                                    <td>{{ propiedad.descripcion }}</td>
+                                    <td>{{ propiedad.precio | currency:'USD' }}</td>
+                                    <td>
+                                        <i (click)="eliminarPropiedad(propiedad._id)" class="btn bg-danger " style="color: white;" > <a >Eliminar</a></i>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <h5 style="text-align: start; margin-top: 10px;" *ngIf="listPropiedades.length == 0">No hay productos para mostrar</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </details>
+
+       <br><br><br><br><br>
+       <hr>
+        
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <!--Fin Vacantes laborales-->
+  
+  </div>
+  

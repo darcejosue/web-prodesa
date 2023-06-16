@@ -16,6 +16,7 @@ import { FinanzasComponent } from './components/legal/finanzas/finanzas.componen
 import { TCEAComponent } from './components/legal/tcea/tcea.component';
 import { CalculosComponent } from './components/legal/calculos/calculos.component';
 import { CalificacionComponent } from './components/calificacion/calificacion.component';
+import { PanelComponent } from './components/panel/panel.component';
 
 
 const routes: Routes = [
@@ -80,6 +81,10 @@ const routes: Routes = [
   {
     path: 'ejemplo calculos',
     component: CalculosComponent
+  },
+  {
+    path: 'panel',
+    component: PanelComponent
   },
   {
     path: '**', redirectTo: '', pathMatch: 'full'

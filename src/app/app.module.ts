@@ -27,6 +27,10 @@ import { EmailFormComponent } from './email/email-form.component';
 import { TCEAComponent } from './components/legal/tcea/tcea.component';
 import { CalculosComponent } from './components/legal/calculos/calculos.component';
 import { CalificacionComponent } from './components/calificacion/calificacion.component';
+import { HttpClientModule} from '@angular/common/http';
+import { PanelComponent } from './components/panel/panel.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,12 +58,15 @@ import { CalificacionComponent } from './components/calificacion/calificacion.co
     TCEAComponent,
     CalculosComponent,
     CalificacionComponent,
+    PanelComponent,
     
   ],
   imports: [
     BrowserModule, 
     AppRoutingModule, 
     NgbModule,
+    HttpClientModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
