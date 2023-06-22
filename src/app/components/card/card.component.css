@@ -1,12 +1,87 @@
-.card {
-    width: 190px;
-    height: 254px;
-    border-radius: 30px;
-    background: #dddddd;
-    box-shadow: 10px 10px 20px rgb(25, 25, 25),
-                -10px -10px 20px rgb(60, 60, 60);
-
-    align-items: center;
-    justify-content: center;
-   }
-   
+/**@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);*/
+body {
+    font: 100% Roboto, sans-serif;
+    background: url(http://wallpapercave.com/wp/aZlqiAT.png) 50% 50% no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  nav {
+    width: 300px;
+    background: white;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-clip-path: circle(24px at 30px 24px);
+    clip-path: circle(24px at 32px 24px);
+    -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+    transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+  }
+  
+  nav:hover {
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+    -webkit-clip-path: circle(390px at 225px 24px);
+    clip-path: circle(390px at 150px 24px);
+  }
+  
+  a {
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+    color: inherit;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: dashed;
+  }
+  
+  a:hover { background: #ffe082; }
+  
+  a:active { background: #ffca28; }
+  
+  .navicon {
+    padding: 23px 20px;
+    cursor: pointer;
+    -webkit-transform-origin: 32px 24px;
+    -ms-transform-origin: 32px 24px;
+    transform-origin: 32px 24px;
+  }
+  
+  .navicon div {
+    position: relative;
+    width: 25px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .navicon div:before,
+  .navicon div:after {
+    display: block;
+    content: "";
+    width: 25px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.87);
+    position: absolute;
+  }
+  
+  .navicon div:before { top: -7px; }
+  
+  .navicon div:after { top: 7px; }
+  
+  
+  .position-logo {
+      position: relative;
+      float: right;
+      z-index: 1;
+      padding: 0;
+      margin: 0;
+  }
+  
+  nav{
+    position: fixed;
+  }

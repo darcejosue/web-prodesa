@@ -1,12 +1,4 @@
 
-.all{
-  
-  padding-top: 40px;
-}
-
-.all a {
-  color: rgb(255, 255, 255);
-}
 
 .img-carusel {
   width: 100%;
@@ -33,80 +25,4 @@ p {
   margin-left: 25%;
 }
 
-.menu-bar-desktop {
-  text-decoration: none;
-  font: 100% Roboto, sans-serif;
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  font-size: 20px;
-  line-height: 10px;
-  padding: 0 20px;
-  color: inherit;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-align: justify;
-}
 
-a {
-  color: rgb(24, 23, 23);
-  display: inline-block;
-  text-decoration: none;
-  padding: 15px;
-    line-height: 20px;
-    margin: 5px;
-
-  border-bottom: #f3f3f3 1px solid;
-}
-
-a:hover {
-  background: #ffe082;
-}
-
-a:active {
-  background: #ffca28;
-}
-
-
-
-details{
-    line-height: 20px;
-    margin-top: 55px;
-    padding: 0;
-    text-align: left;
-}
-
-details {
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-  
-    border-bottom: #f3f3f3 1px solid;
-  }
-  
- 
-  
-
-summary{
-    padding: 15px;
-    width: auto;
-    margin: auto;
-    padding: auto;
-}
-
-summary:hover {
-    background: #ffe082;
-  }
-  
-  summary:active {
-    background: #ffca28;
-  }
-
-li{
-
-    list-style-type: none;
-}

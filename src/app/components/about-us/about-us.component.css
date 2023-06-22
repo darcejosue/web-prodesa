@@ -1,4 +1,49 @@
+css
+/* Estilos para la tarjeta */
+.card {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 
+/* Estilos para el encabezado */
+.card h2 {
+	margin-top: 0;
+    color: #ddd;
+    background-color: #1e1f1e;
+    padding: 20px;
+}
+
+.card p{
+    padding: 20px;
+}
+
+/* Estilos para las barras de carga */
+.progress-bar {
+	margin-bottom: 10px;
+}
+
+.bar-label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.bar-container {
+	background-color: #ddd;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.bar {
+    color: #ddd;
+	background-color: #4CAF50;
+	height: 100%;
+	width: 0%;
+	border-radius: 10px;
+	transition: width 0.5s ease-in-out;
+}
 
 h2{
     text-align: center;
