@@ -4,47 +4,38 @@
 
 <!--Botones de panel de navegacion-->
 
-<div class="all ">
-    <div class="col-md-11 col-sm-5 menu-bar-desktop">
-      <span style="color: rgb(255, 255, 255)"></span>
-      <img
+<div class="">
+  <div class="all ">
+    <div class="col-md-12 col-sm-5 menu-bar-desktop">
+     <!-- <img
         src="../../../assets/images/Logo.jpg"
         style="z-index: 2"
         width="10%"
         class="float-left"
-      />
-      <span style="color: rgb(255, 255, 255)"></span>
+      />-->
 
-      <a href="/">Inicio</a>
+      <a href="/" class="button b0">Inicio</a>
 
-      <span style="color: rgb(248, 246, 246)">||</span>
-      <a href="/cobertura">Cobertura</a>
-      <span style="color: rgb(255, 255, 255)">||</span>
-      <a href="/productos">Productos Financieros</a>
-      <span style="color: rgb(255, 255, 255)">||</span>
-      <a href="/social">Desempeño social</a>
-      <span style="color: rgb(255, 255, 255)">||</span>
-      <a href="/calificacion">Calificacion Institucional</a>
-      <span style="color: rgb(255, 255, 255)">||</span>
+      <a href="/cobertura" class="button b1">Cobertura</a>
+      <a href="/productos" class="button b2">Productos Financieros</a>
+      <a href="/social" class="button b3">Desempeño social</a>
+      <a href="/calificacion" class="button b4">Calificacion Institucional</a>
       <!--<a href="/trabajos">Propiedades en Venta</a>-->
 
       
-        <details >
-          <summary>Aspectos Legales</summary>
-          <br />
-          <ul>
-            <li><a href="/ley 769" class="nav-submenu-link">Ley 769</a></li>
-            <li><a href="/tcea" class="nav-submenu-link">TCEA</a></li>
-            <li>
-              <a href="/ejemplo calculos" >Ejemp Calculo de Int.</a>
-            </li>
-            <li>
-              <a href="/reclamos" class="nav-submenu-link"> Procedimiento de Reclamo</a>
-            </li>
-            <li><a href="/contratos" class="nav-submenu-link">Modelo de Contratos</a></li>
-            <li><a href="/estados financieros" class="nav-submenu-link">Estados Financieros</a></li>
-          </ul>
-        </details>
+
+      <select id="mySelect" (click)="navigate()" >
+        <option >Aspectos Legales</option>
+        <option value="/ley 769">Ley 769</option>
+        <option value="/tcea">tcea</option>
+        <option value="/ejemplo calculos">ejemplo calculos</option>
+        <option value="/reclamos">reclamos</option>
+        <option value="/contratos">contratos</option>
+        <option value="/estados financieros">estados financieros</option>
+      </select>
+      
+       
       </div>
     
+</div>
 </div>

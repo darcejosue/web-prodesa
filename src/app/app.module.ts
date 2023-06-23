@@ -5,18 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterBottomComponent } from './pages/footer-bottom/footer-bottom.component';
 import { MainContentComponent } from './pages/main-content/main-content.component';
-import { CardComponent } from './components/card/card.component';
+import { CardComponent } from './components/menu_flotante/card.component';
 import { MapComponent } from './components/map/map.component';
-import { AboutUsComponent } from './components/about-us/about-us.component';
+import { AboutUsComponent } from './components/inicio/about-us.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { HeaderOptionComponent } from './pages/header-option/header-option.component';
 import { InformationComponent } from './components/information/information.component';
-import { RecordsComponent } from './components/records/records.component';
+import { RecordsComponent } from './components/antecedentes/records.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { VacantComponent } from './components/vacant/vacant.component';
-import { QuestionComponent } from './components/question/question.component';
+import { QuestionComponent } from './components/preguntas/question.component';
 import { SocialComponent } from './components/social/social.component';
 import { LeyComponent } from './components/legal/ley/ley.component';
 import { FormatosReportesComponent } from './components/legal/formatos-reportes/formatos-reportes.component';
@@ -28,9 +28,10 @@ import { TCEAComponent } from './components/legal/tcea/tcea.component';
 import { CalculosComponent } from './components/legal/calculos/calculos.component';
 import { CalificacionComponent } from './components/calificacion/calificacion.component';
 import { HttpClientModule} from '@angular/common/http';
-import { PanelComponent } from './components/panel/panel.component';
+import { PanelComponent } from './components/ignorar/panel.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { PremiosComponent } from './components/premios/premios.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CalculosComponent,
     CalificacionComponent,
     PanelComponent,
+    PremiosComponent,
     
   ],
   imports: [

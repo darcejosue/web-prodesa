@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PropiedadService } from 'src/app/services/propiedad.service';
-import { Propiedad } from './../../models/propiedad';
+import { Propiedad } from '../../models/propiedad';
 import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
