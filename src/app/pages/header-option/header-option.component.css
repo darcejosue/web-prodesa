@@ -1,8 +1,4 @@
 
-.all{
-  
-  padding-top: 40px;
-}
 
 .all a {
   color: rgb(255, 255, 255);
@@ -14,25 +10,12 @@ div {
   color: rgb(255, 255, 255);
 
   padding-bottom: 15px;
-  margin-left: 0%;
 }
 
 .menu-bar-desktop {
-  text-decoration: none;
   font: 100% Roboto, sans-serif;
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
   font-size: 20px;
   line-height: 10px;
-  padding: 0 20px;
-  color: inherit;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-align: justify;
 }
 
 a {
@@ -54,26 +37,28 @@ a:active {
   background: #ffca28;
 }
 
+details{
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  border-bottom: #f3f3f3 1px solid;
+  line-height: 20px;
+  margin-top: 55px;
+  
+  margin: 5px;
+  padding: 0;
+}
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1186px) {
   details{
-    line-height: 20px;
-    margin-top: 55px;
-    padding: 0;
+    
+    padding-top: 5%;
     text-align: left;
     position: absolute;
     z-index: 1;
+    width: auto;
 }
-
-details {
-  width: auto;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-  
-    border-bottom: #f3f3f3 1px solid;
-  }
 
   details:hover{
     background-color: rgb(63, 60, 60);
@@ -82,21 +67,10 @@ details {
 
   @media screen and (max-width: 700px) {
     details{
-      line-height: 20px;
-      margin-top: 55px;
-      padding: 0;
       text-align: center;
       z-index: 1;
   }
   
-  details {
-      color: rgb(255, 255, 255);
-      display: inline-block;
-      text-decoration: none;
-      padding: 15px;
-    
-      border-bottom: #f3f3f3 1px solid;
-    }
 }
   
  
