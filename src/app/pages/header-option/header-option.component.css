@@ -1,10 +1,15 @@
-
+.position-logo{
+  width: 60px;
+  height: 80px;
+  display: inline-block;
+  position:absolute;
+  margin-left: 10px;
+}
 
 
 
 div {
   text-align: right;
-  align-content: center;
   color: rgb(255, 255, 255);
   height: 5%;
 
@@ -17,12 +22,12 @@ div {
 }
 
 a {
-  color: rgb(51, 50, 50);
+  color: rgb(255, 255, 255);
   display: inline-block;
   text-decoration: none;
   padding: 15px;
   line-height: 20px;
-  width: 12%;
+  width: 16%;
   text-align: center;
 
 }
@@ -39,14 +44,13 @@ select {
   display: inline-block;
   transition: all 0.2s ease-in;
   position:  relative;
-  color: rgb(24, 23, 23);
+  color: rgb(255, 255, 255);
   z-index: 1;
   border: 0px solid ;
   background-color: #0642c400;
   border-bottom: #0642c4 12px solid;
   padding: 15px;
   width: auto;
-  top: -32px;
   line-height: 40px;
   
 }
@@ -110,7 +114,6 @@ img{
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
-  font-size: 19px;
   z-index: 1;
  }
 

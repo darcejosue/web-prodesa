@@ -1,0 +1,39 @@
+label{
+    padding: 35px !important;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.bg-danger{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bg-primary{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bg-warning{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img{
+   width: 60%
+}
+
+.img-mini{
+    width: 20%;
+}
+
+iframe{
+
+}
