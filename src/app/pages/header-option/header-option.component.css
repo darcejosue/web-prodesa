@@ -17,7 +17,7 @@ div {
 }
 
 a {
-  color: rgb(24, 23, 23);
+  color: rgb(51, 50, 50);
   display: inline-block;
   text-decoration: none;
   padding: 15px;
@@ -39,7 +39,7 @@ select {
   display: inline-block;
   transition: all 0.2s ease-in;
   position:  relative;
-  color: rgb(255, 255, 255);
+  color: rgb(24, 23, 23);
   z-index: 1;
   border: 0px solid ;
   background-color: #0642c400;
@@ -58,6 +58,7 @@ select {
 }
 
 @media screen and (max-width: 1210px) {
+  
   select{
     width: 100%;
     top: 0;
@@ -70,10 +71,12 @@ select {
 
   .all{
     margin-left: 0;
+    display: none;
   }
 }
 
 select:hover {
+  color: white;
 background-color: #0642c4;
 transform:  scaleY(1.03) ;
 }
@@ -83,8 +86,9 @@ option{
     padding: 15px;
     width: auto;
     margin: auto;
-    padding: auto;
+    padding-top: 15px;
     background-color: rgb(61, 60, 60);
+    line-height: 15px;
 }
 
 
@@ -107,8 +111,11 @@ img{
   position: relative;
   overflow: hidden;
   font-size: 19px;
-  color: rgb(255, 255, 255);
   z-index: 1;
+ }
+
+ .button:hover{
+  color: white;
  }
  
  .button:before {

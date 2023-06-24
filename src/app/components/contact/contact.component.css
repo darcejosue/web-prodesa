@@ -28,3 +28,12 @@ figcaption{
     text-align: center;
 }
 
+b{
+    color: rgb(37, 180, 32) !important;
+}
+
+
+h3{
+    padding: 20px;
+    border-radius: 5px;
+}

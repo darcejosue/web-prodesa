@@ -1,5 +1,5 @@
 *{
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   padding: 0px;
   margin: 0px;
 }
@@ -9,9 +9,14 @@ body{
   margin: 0px;
 }
 
+a{
+  color: black !important; 
+}
+
 div{
     margin-top: 0px;
     padding-top: 0px;
-    background-color: rgb(54, 54, 54);
+    /*background-color: rgb(54, 54, 54);*/
+    background-color: white;
     
   }

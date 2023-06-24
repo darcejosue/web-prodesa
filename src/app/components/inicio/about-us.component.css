@@ -10,8 +10,7 @@ css
 /* Estilos para el encabezado */
 .card h2 {
 	margin-top: 0;
-    color: #ddd;
-    background-color: #1e1f1e;
+    color: #ddd;	
     padding: 20px;
 }
 

@@ -1,6 +1,6 @@
 summary{
     font-size: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
     padding-bottom: 20px;
 }
 
@@ -17,7 +17,7 @@ a{
     text-decoration: double;
     font-weight: inherit;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 a:hover{
     text-decoration: none;

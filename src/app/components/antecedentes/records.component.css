@@ -113,6 +113,7 @@ h1 {
     width: 100% !important;
     background-color: rgb(0, 102, 255);
     border-radius: 5px;
+    color: white !important;
   }
 
   img{

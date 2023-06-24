@@ -22,8 +22,8 @@ body {
     transition-timing-function: ease-out;
     -webkit-transition-duration: 0.75s;
     transition-duration: 0.75s;
-    -webkit-clip-path: circle(390px at 225px 24px);
-    clip-path: circle(390px at 150px 24px);
+    -webkit-clip-path: circle(420px at 225px 24px);
+    clip-path: circle(420px at 150px 24px);
   }
   
   a {
@@ -85,3 +85,25 @@ body {
   nav{
     position: fixed;
   }
+
+
+  select {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position:  relative;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    border: 0px solid ;
+    background-color: #0642c400;
+    padding: 15px;
+    width: auto;
+    top: -32px;
+    line-height: 40px;
+    width: 100%;
+    top: 0;
+    font-size: 20px;
+
+  }
+
+  
+  select:active { background: #ffca28; }

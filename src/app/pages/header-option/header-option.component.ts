@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HeaderOptionComponent {
 
   navigate(): void {
-    const select = document.getElementById('mySelect');
+    const select = document.getElementById('mySelect1');
     select?.addEventListener('change', (e) => {
       const selectedOption = (e.target as HTMLSelectElement).options[
         (e.target as HTMLSelectElement).selectedIndex
