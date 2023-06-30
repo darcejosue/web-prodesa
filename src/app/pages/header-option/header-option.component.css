@@ -1,11 +1,12 @@
+
 .position-logo{
-  width: 60px;
-  height: 80px;
+  width: 75px;
+  height: 100px;
   display: inline-block;
   position:absolute;
   margin-left: 10px;
+  z-index: 1;
 }
-
 
 
 div {
@@ -27,7 +28,7 @@ a {
   text-decoration: none;
   padding: 15px;
   line-height: 20px;
-  width: 16%;
+  
   text-align: center;
 
 }
@@ -55,9 +56,23 @@ select {
   
 }
 
-@media screen and (min-width: 1210px) {
+@media screen and (min-width: 1400px) {
   .all{
     margin-right: 20px;
+  }
+  a{
+        width: 16%;
+      
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .all{
+    margin-right: 20px;
+  }
+  
+  a{
+  width: 10%;
   }
 }
 
@@ -81,8 +96,8 @@ select {
 
 select:hover {
   color: white;
-background-color: #0642c4;
-transform:  scaleY(1.03) ;
+  background-color: #0642c4;
+  transform:  scaleY(1.03) ;
 }
 
 

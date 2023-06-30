@@ -32,6 +32,12 @@ import { PanelComponent } from './components/ignorar/panel.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { PremiosComponent } from './components/premios/premios.component';
+import { ImagenesPremiosComponent } from './components/imagenes-premios/imagenes-premios.component';
+import { MadresComponent } from './components/imagenes-festejos/madres/madres.component';
+import { PadresComponent } from './components/imagenes-festejos/padres/padres.component';
+import { AgostoComponent } from './components/imagenes-festejos/agosto/agosto.component';
+import { NavidadComponent } from './components/imagenes-festejos/navidad/navidad.component';
+import { AniversarioComponent } from './components/imagenes-festejos/aniversario/aniversario.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +67,12 @@ import { PremiosComponent } from './components/premios/premios.component';
     CalificacionComponent,
     PanelComponent,
     PremiosComponent,
+    ImagenesPremiosComponent,
+    MadresComponent,
+    PadresComponent,
+    AgostoComponent,
+    NavidadComponent,
+    AniversarioComponent,
     
   ],
   imports: [
