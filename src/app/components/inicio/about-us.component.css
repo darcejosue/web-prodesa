@@ -47,3 +47,7 @@ css
 h2{
     text-align: center;
 }
+
+
+.imagen-logo:hover{animation:blur-out-expand 0.4s linear both} @keyframes blur-out-expand{0%{transform:scale(1);filter:blur(.01px);} 100%{transform:scale(2);filter:blur(12px);opacity:0}}
+

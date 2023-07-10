@@ -32,7 +32,6 @@ import { PanelComponent } from './components/ignorar/panel.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { PremiosComponent } from './components/premios/premios.component';
-import { ImagenesPremiosComponent } from './components/imagenes-premios/imagenes-premios.component';
 import { MadresComponent } from './components/imagenes-festejos/madres/madres.component';
 import { PadresComponent } from './components/imagenes-festejos/padres/padres.component';
 import { AgostoComponent } from './components/imagenes-festejos/agosto/agosto.component';
@@ -67,7 +66,6 @@ import { AniversarioComponent } from './components/imagenes-festejos/aniversario
     CalificacionComponent,
     PanelComponent,
     PremiosComponent,
-    ImagenesPremiosComponent,
     MadresComponent,
     PadresComponent,
     AgostoComponent,
